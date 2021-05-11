@@ -57,7 +57,7 @@ class PaginaInicio extends StatelessWidget {
                 width: 150,
                 decoration: BoxDecoration(
                   color: Colors.indigo,
-                  image: DecorationImage(image: NetworkImage("https://raw.githubusercontent.com/susancerc/mis_imagenes/main/icon.jpg"), alignment: Alignment.topCenter),
+                  image: DecorationImage(image: NetworkImage("https://raw.githubusercontent.com/susancerc/mis_imagenes/main/182158728_285183366664506_5951827621813104394_n.png"), alignment: Alignment.topCenter),
                   border: Border(
                     top: BorderSide(
                       color: Colors.yellow[200],
