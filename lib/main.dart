@@ -1,21 +1,21 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(MiFotoApp());
+void main() => runApp(FotoSusan());
 
-class MiFotoApp extends StatelessWidget {
+class FotoSusan extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: "EJEMPLO",
+      title: "diseño widget susan",
       theme: ThemeData(
         primarySwatch: Colors.pink,
-        visualDensity: VisualDensity.adaptivePlatformDensity, //finvisualdensity
-      ), //fin theme
+        visualDensity: VisualDensity.adaptivePlatformDensity, 
+      ), 
       home: PaginaInicio(),
-    ); //fin del returnmaterialapp
-  } //finbuildmifotoapp
-} //finclasefoto
+    ); //fin del materialapp
+  } //fin build fotosusan
+} //fin fotosusan
 
 class PaginaInicio extends StatelessWidget {
   @override
@@ -24,7 +24,7 @@ class PaginaInicio extends StatelessWidget {
       appBar: AppBar(
         title: Text("bordes en mi app"),
         centerTitle: true,
-      ), //fin appbar
+      ), 
       body: SingleChildScrollView(
         child: Center(
           child: Column(
@@ -48,7 +48,7 @@ class PaginaInicio extends StatelessWidget {
                     style: TextStyle(fontSize: 18),
                   ),
                 ), //fin child center
-              ), //fin de el container nombre
+              ), // fin del container
               SizedBox(
                 height: 50,
               ),
@@ -93,7 +93,7 @@ class PaginaInicio extends StatelessWidget {
                     ),
                   ),
                 ),
-              ), //fin de el container del texto del grupo
+              ), //fin de el container del texto 
             ], //fin del children
           ), //fin de la columna child
         ), //fin del bodycenter
